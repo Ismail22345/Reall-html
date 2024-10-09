@@ -1,0 +1,157 @@
+@media (max-width: 481px) {
+    .main h1 {
+        font-size: 0.6em;
+      }
+    #buy {
+        padding: 5px 17px 9px 17px;
+    }
+    #rent, #sold {
+        padding: 5px 15px 8px 15px;
+    }
+    .house {
+        /* flex: 1 0 8%; */
+        width: 200%;
+    }
+    .sub-top {
+        font-size: 32px;
+    }
+    .sub-1, .sub-2 {
+        font-size: 16px;
+        padding: 0 3%;
+    }
+    .property-images {
+        flex-direction: column;
+        width: 312%;
+    }
+    .region-b {
+        height: 318px;
+    }
+    .region {
+        height: 318px;
+    }
+    .platform p {
+        font-size: 13px;
+    }
+    .platform h2 {
+        font-size: 45px;
+    }
+    .browse {
+        margin-top: 15%;
+        position: relative;
+    }
+    .choice {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+    }
+    .choice-slide {
+        display: flex;
+        column-gap: 1rem;
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%);
+        bottom: 3%;
+    }
+    .latest-image-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .people {
+        position: relative;
+    }
+    .people-slide {
+        display: flex;
+        column-gap: 1rem;
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%);
+        margin-top: 6%;
+        z-index: 10; 
+    }
+    .choice-slide a,
+    .people-slide a {
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background-color: rgb(182, 179, 179);
+        /* opacity: 0.75; */
+        transition: opacity ease 250ms;
+    }
+    .choice-slide a:hover,
+    .people-slide:hover {
+        opacity: 1;
+        background-color: #222020;
+    }  
+    .choice-aparts {
+        width: 23em;
+    } 
+    .b-or-s h2 {
+        font-size: 30px;
+    }
+    .b-or-s-two-but {
+        display: flex;
+        flex-direction: column;
+    }
+    .b-or-s-button {
+        line-height: -20px;
+        margin-bottom: -30;
+        margin-top: 0;
+    }
+    .eclipse-img {
+        height: 80px;
+    }
+    .browse h2 {
+        max-width: 8em;
+    }
+    .thp {
+        display: flex;
+        flex-direction: column;
+    }
+    .agents1 h2 {
+        font-size: 2.5em;
+    }
+    .prop-abs1, 
+    .prop-abs2, 
+    .prop-abs3, 
+    .prop-abs4,
+    .prop-abs5,
+    .prop-abs6 {
+        display: none;
+    }
+    .wrapper {
+        margin: 0 0.9em;
+    }
+    .box {
+        padding: 2%;
+    }
+    .box p {
+        font-size: 1.1em;
+    }
+    .all-f {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* gap: -6px; */
+        overflow: none;
+    }
+    .eiddo-head {
+        flex-direction: column;
+    }
+    .last-logo {
+        width: 8em;
+        padding: auto;
+    }
+    .all-last-form-contd {
+        display: flex;
+        flex-direction: column;
+        margin-left: -12%;
+    }
+    .all-last-form:not(:first-child){
+        margin-top: -15%;
+    }
+}
